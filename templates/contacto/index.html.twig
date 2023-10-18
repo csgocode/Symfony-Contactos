@@ -1,0 +1,9 @@
+<h1>Detalles del Contacto</h1>
+
+{% if contacto %}
+<p><strong>Nombre:</strong> {{ contacto.nombre }}</p>
+<p><strong>Tlf:</strong> {{ contacto.telefono }}</p>
+<p><strong>Correo:</strong> {{ contacto.email }}</p>
+{% else %}
+<p>Contacto no encontrado</p>
+{% endif %}

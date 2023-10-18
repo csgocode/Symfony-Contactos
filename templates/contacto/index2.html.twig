@@ -1,0 +1,10 @@
+<h1>Listado de Contactos</h1>
+
+{% for codigo, contacto in contactos %}
+    <div class="contacto-card">
+        <h2>Contacto con ID {{ codigo }}</h2>
+        <p><strong>Nombre:</strong> {{ contacto.nombre }}</p>
+        <p><strong>Tlf:</strong> {{ contacto.telefono }}</p>
+        <p><strong>Correo:</strong> {{ contacto.email }}</p>
+    </div>
+{% endfor %}
