@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Entity;
+use App\Entity\Provincia;
 
 use App\Repository\ContactosRepository;
 use Doctrine\ORM\Mapping as ORM;
